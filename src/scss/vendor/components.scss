@@ -1,0 +1,26 @@
+//-------------------------
+//---style link
+//-------------------------
+
+.visible-xs{
+
+    @media (min-width: $screen-w--sx){
+        display: none !important;
+    }
+}
+
+.visible-sm{
+    display: none !important;
+
+    @media (min-width: $screen-w--sx){
+        display: block !important;
+    }
+}
+
+.visible-xl{
+    display: none !important;
+
+    @media (min-width: $screen-w--xl){
+        display: block !important;
+    }
+}

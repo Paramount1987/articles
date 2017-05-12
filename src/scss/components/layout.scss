@@ -1,0 +1,13 @@
+.container{
+    max-width: $screen-w--xl;
+    margin: 0 auto;
+    background-color: #fff;
+
+    @media (min-width: $screen-w--sx) {
+        padding: 0 $padding-sx;
+    }
+
+    @media (min-width: $screen-w--xl) {
+        padding: 0 $padding-xl;
+    }
+}
